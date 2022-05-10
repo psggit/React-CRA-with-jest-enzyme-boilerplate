@@ -1,0 +1,36 @@
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+
+  .logo-container {
+    text-align: center;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    line-height: 44px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-bottom: 36px;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.26);
+  }
+
+  .submit {
+    display: flex;
+    align-self: center;
+
+    span {
+      color: #fff;
+    }
+  }
+}
